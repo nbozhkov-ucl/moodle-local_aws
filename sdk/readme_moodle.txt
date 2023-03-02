@@ -1,3 +1,5 @@
+
+
 #!/bin/bash
 # Run this script from the sdk folder
 # Update version.php verion and release
@@ -17,4 +19,3 @@ rm $SDKDIR/sdk.zip
 echo
 echo 'Go update version.php'
 echo $SDKDIR
-
