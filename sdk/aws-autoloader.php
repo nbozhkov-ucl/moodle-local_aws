@@ -2756,6 +2756,8 @@ if (!function_exists('GuzzleHttp\describe_type')) {
     require_once __DIR__ . '/GuzzleHttp/functions_include.php';
 }
 require_once __DIR__ . '/GuzzleHttp/Psr7/functions_include.php';
-require_once __DIR__ . '/GuzzleHttp/Promise/functions_include.php';
+if (!function_exists('GuzzleHttp\Promise\inspect_all')) {
+    require_once __DIR__ . '/GuzzleHttp/Promise/functions_include.php';
+}
 require_once __DIR__ . '/JmesPath/JmesPath.php';
 require_once __DIR__ . '/Symfony/Polyfill/Intl/Idn/bootstrap.php';
