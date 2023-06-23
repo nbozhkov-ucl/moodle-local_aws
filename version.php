@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2023011100;
+$plugin->version   = 2023062300;
 $plugin->release   = '3.208.1'; // This should be in lock step with sdk/CHANGELOG.md.
-$plugin->requires  = 2013111811;
+$plugin->requires  = 2023042401;
 $plugin->component = 'local_aws';
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->supported = [26, 402]; // A range of branch numbers of supported moodle versions.
+$plugin->supported = [402]; // A range of branch numbers of supported moodle versions.
